@@ -1,4 +1,10 @@
-def is_upper?(ascii_val) 
+def is_lower?(ascii_val) 
+    if(ascii_val >= 97 && ascii_val <= 122)
+      return true
+    end
+  end
+  
+  def is_upper?(ascii_val) 
     if(ascii_val >= 65 && ascii_val <= 90)
       return true
     end
